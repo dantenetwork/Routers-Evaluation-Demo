@@ -1,5 +1,5 @@
 # Routers Evaluation-Demo
-On-chain routers Evaluation Algorithm deployed on NEAR.
+This is a demo for a simulation to routers Evaluation Algorithm(on-chain) deployed on NEAR.
 
 * **Attention**: the testnet and mainnet of NEAR cannot be accessed in some areas.
 * For convenience, we are building a version that can be accessed from **discord**. It's coming soon.  
