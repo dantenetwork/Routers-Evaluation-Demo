@@ -50,12 +50,12 @@ near view ec.d-hub.testnet get_credibility '{"validators": ["ACCOUTN_1", "ACCOUN
 ```
 
 ## Example
-* `do_honest '{"times": 50}'` for 10 times, we can get the credibility series, the curve of which is:
+* Execute `near call ec.d-hub.testnet do_honest '{"times": 50}' --accountId CALL_ACCOUNT` in a row, we can get the credibility series, the curve of which is:
 ![1651914035(1)](https://user-images.githubusercontent.com/83746881/167247276-a2b82eaa-8010-401b-8e27-538781016c33.png)
 
 It's similar to the `growth trend` in the [technical white paper](https://github.com/dantenetwork/Pitch-Deck/blob/main/Dante%20Network%EF%BC%9AThe%20_Internet%20protocol%20stack_%20of%20Web3.pdf), chapter 3.2, pic-4.
 
-* `do_evil '{"times": 50}'` for 10 times, we can get the credibility series, the curve of which is:
+* Execute `near call ec.d-hub.testnet do_evil '{"times": 50}' --accountId CALL_ACCOUNT` in a row, we can get the credibility series, the curve of which is:
 ![1651914073(1)](https://user-images.githubusercontent.com/83746881/167247295-434c95f5-d421-48ec-8127-de9406f2dab1.png)
 
 It's similar to the `reduction trend` in the [technical white paper](https://github.com/dantenetwork/Pitch-Deck/blob/main/Dante%20Network%EF%BC%9AThe%20_Internet%20protocol%20stack_%20of%20Web3.pdf), chapter 3.2, pic-4.
