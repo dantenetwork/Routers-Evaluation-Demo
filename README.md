@@ -1,4 +1,4 @@
-# Credibility-Demo
+# Routers Evaluation-Demo
 On-chain routers Evaluation Algorithm deployed on NEAR.
 
 * **Attention**: the testnet and mainnet of NEAR cannot be accessed in some areas.
