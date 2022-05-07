@@ -50,15 +50,16 @@ near view ec.d-hub.testnet get_credibility '{"validators": ["ACCOUTN_1", "ACCOUN
 ```
 
 ## Example
-* `do_honest '{"times": 50}'` for 10 times, we can get the credibility series: `[]`, the curve of which is:
+* `do_honest '{"times": 50}'` for 10 times, we can get the credibility series, the curve of which is:
 ![1651914035(1)](https://user-images.githubusercontent.com/83746881/167247276-a2b82eaa-8010-401b-8e27-538781016c33.png)
 
 It's similar to the `growth trend` in the [technical white paper](https://github.com/dantenetwork/Pitch-Deck/blob/main/Dante%20Network%EF%BC%9AThe%20_Internet%20protocol%20stack_%20of%20Web3.pdf), chapter 3.2, pic-4.
 
-* `do_evil '{"times": 50}'` for 10 times, we can get the credibility series: `[]`, the curve of which is:
+* `do_evil '{"times": 50}'` for 10 times, we can get the credibility series, the curve of which is:
 ![1651914073(1)](https://user-images.githubusercontent.com/83746881/167247295-434c95f5-d421-48ec-8127-de9406f2dab1.png)
 
 It's similar to the `reduction trend` in the [technical white paper](https://github.com/dantenetwork/Pitch-Deck/blob/main/Dante%20Network%EF%BC%9AThe%20_Internet%20protocol%20stack_%20of%20Web3.pdf), chapter 3.2, pic-4.
 
 * Besides, we can conclude from the two series that, with a high credibility, `do_evil` will loss more than `do_honest` can earn with the same credibility.
-![1651913925(1)](https://user-images.githubusercontent.com/83746881/167247215-f6131b00-49b8-4226-80a4-b0504eba12be.png)
+
+![1651914175(1)](https://user-images.githubusercontent.com/83746881/167247352-56a77ac4-2948-47d0-b1f4-f8ccbdab7a3f.png)
